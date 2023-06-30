@@ -74,8 +74,6 @@ benchmark = "pytest --benchmark-only --benchmark-autosave"
 profile = "black"
 multi_line_output = 3
 
-<<<<<<< HEAD
-=======
 [tool.pyright]
 include = ["bids_path"]
 exclude = ["typings"]
@@ -83,6 +81,5 @@ typeCheckingMode = "strict"
 reportPrivateUsage = false
 reportImportCycles = false
 
->>>>>>> 7f0e731 (Remove all snakemake related items)
 [tool.ruff]
 select = ["E", "F", "PL", "RUF"]
